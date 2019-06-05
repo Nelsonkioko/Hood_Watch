@@ -6,6 +6,7 @@
       <ul class="left hide-on-med-and-down" style="Margin-left: 20%;">
         <li><a href="{% url 'companies' %}">Businesses in your Area</a></li>
         <li> <a href="#contactsmodal" class="modal-trigger">Emergency Contacts</a> </li>
+          <li><a class="modal-trigger" href="#modal1">Post Something</a></li>
       </ul>
       <a href="{% url 'logout' %}" class="right">Logout</a>
       <a class="right" href="{% url 'edit_profile' user.username %}" style="margin: 10px;">Profile</a>
@@ -27,10 +28,10 @@
  <!-- Modal Structure -->
    <div id="contactsmodal" class="modal">
      <div class="modal-content">
-       <h4>Hotline Emergency Contacts</h4>
-       <p>Police: 999 / +254 203 414 11 <br>Ambulance: 5674 / 020-2222181 <br>Fire Brigade: 2222181</p>
+       <h4>Emergency Contacts</h4>
+       <p>Police: 999  <br>Ambulance: 999 <br>Fire Brigade: 999</p>
      </div>
      <div class="modal-footer">
-       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Hide</a>
      </div>
    </div>

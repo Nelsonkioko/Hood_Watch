@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b895026-27fd-4767-88b7-77997e8d1244" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hood/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hood/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hood/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/hood/templates/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hood/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="162">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#195#215#0#HTML" expanded="true" />
                 <element signature="e#387#429#0#HTML" expanded="true" />
@@ -142,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hood/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+            <state relative-caret-position="120">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
@@ -173,8 +174,8 @@
         <option value="$PROJECT_DIR$/hood/templates/base.html" />
         <option value="$PROJECT_DIR$/hood/templates/companies.html" />
         <option value="$PROJECT_DIR$/hood/templates/post.html" />
-        <option value="$PROJECT_DIR$/hood/templates/index.html" />
         <option value="$PROJECT_DIR$/hood/forms.py" />
+        <option value="$PROJECT_DIR$/hood/templates/index.html" />
         <option value="$PROJECT_DIR$/hood/templates/navbar.html" />
       </list>
     </option>
@@ -320,13 +321,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17560000" />
+    <option name="totallyTimeSpent" value="18187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24504362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24504362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,7 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3306189" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,16 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hood/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="19" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hood/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -482,18 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hood/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#195#215#0#HTML" expanded="true" />
-            <element signature="e#387#429#0#HTML" expanded="true" />
-            <element signature="e#900#937#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hood/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="887">
@@ -514,10 +493,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hood/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hood/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#195#215#0#HTML" expanded="true" />
+            <element signature="e#387#429#0#HTML" expanded="true" />
+            <element signature="e#900#937#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hood/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />

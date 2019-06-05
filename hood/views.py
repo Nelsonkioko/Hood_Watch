@@ -92,7 +92,7 @@ def companies(request):
     except:
         companies = None
 
-    return render(request, 'companies.html', {"companies": companies, "form": form})
+    return render(request, 'businesses.html', {"companies": companies, "form": form})
 
 
 @login_required

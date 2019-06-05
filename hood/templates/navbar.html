@@ -3,12 +3,12 @@
   <div class="nav-wrapper">
     <a href="/" class="brand-logo">Hood Watch</a>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="left hide-on-med-and-down">
+      <ul class="left hide-on-med-and-down" style="Margin-left: 20%;">
         <li><a href="{% url 'companies' %}">Businesses in your Area</a></li>
         <li> <a href="#contactsmodal" class="modal-trigger">Emergency Contacts</a> </li>
       </ul>
-      <a href="{% url 'logout' %}" class="right"><i class="small material-icons">exit_to_app</i></a>
-      <a class="right" href="{% url 'edit_profile' user.username %}" style="margin: 10px;"><img src="{% static 'images/user.png' %}" alt="" height="40" width="40"></a>
+      <a href="{% url 'logout' %}" class="right">Logout</a>
+      <a class="right" href="{% url 'edit_profile' user.username %}" style="margin: 10px;">Profile</a>
       <ul class="" style="float: right; color: white;">
           <li><form class="" action="{% url 'search' %}">
             <div id="custom-search-input" >

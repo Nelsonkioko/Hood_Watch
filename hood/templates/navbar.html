@@ -8,13 +8,15 @@
         <li> <a href="#contactsmodal" class="modal-trigger">Emergency Contacts</a> </li>
           <li><a class="modal-trigger" href="#modal1">Post Something</a></li>
       </ul>
-      <a href="{% url 'logout' %}" class="right">Logout</a>
-      <a class="right" href="{% url 'edit_profile' user.username %}" style="margin: 10px;">Profile</a>
+      <a href="{% url 'logout' %}" class="right" style="margin-left: 10px;">Logout</a>
+      <a class="right" href="{% url 'edit_profile' user.username %}" style="margin-left: 10px;">Profile</a>
+
+
       <ul class="" style="float: right; color: white;">
           <li><form class="" action="{% url 'search' %}">
-            <div id="custom-search-input" >
+            <div id="custom-search-input"  style=" color: white;">
                   <div class="input-group col-md-12 ui-widget">
-                      <input id="search" type="text" class="form-control input-lg" placeholder="Search company" name="search" />
+                      <input style=" color: white;" id="search" type="text" class="s" placeholder="Search for businesses" name="search" />
                   </div>
               </div>
         </form></li>

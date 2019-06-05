@@ -47,7 +47,7 @@ Django 2.2.1
 ## BDD
 
 | Behavior        | Result |
-| ------------- |:----:|
+| ------------- |:----:| 
 | user loads the page | User is prompted to fill the profile and choose a neighbourhood|
 | user submits profile| User is redirected to the hood homepage
 | user clicks on MORE... |The whole post shows up with an option to add comments|

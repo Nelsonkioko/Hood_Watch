@@ -4,13 +4,13 @@
         <div class="col m12">
             <button class="btn right hoverable modal-trigger" type="button" name="button" style="margin: 20px;" href="#modal1"> Add</button>
             {% if companies %}
-            <table>
+            <table style="color: white;">
             <thead>
               <tr>
                   <th>Name</th>
                   <th>Description</th>
 
-                  <th>Email</th>
+
               </tr>
             </thead>
 
@@ -20,7 +20,7 @@
                       <td>{{company.name}}</td>
                       <td>{{company.description}}</td>
 
-                      <td>{{company.email}}</td>
+
                     </tr>
                 {% endfor %}
             </tbody>

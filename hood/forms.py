@@ -12,11 +12,10 @@ class CompanyForm(forms.ModelForm):
         exclude = ['user','neighborhood', 'email']
 
 class PostForm(forms.ModelForm):
-    CHOICES = (('1', 'Amber',), ('2', 'Normal',))
-    type = forms.ChoiceField(widget=forms.Select, choices=CHOICES)
+
     class Meta:
         model = Post
-        fields = ('title','content','type')
+        fields = ('title','content')
 
 class CommentForm(forms.ModelForm):
     class Meta:

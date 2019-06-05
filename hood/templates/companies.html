@@ -2,15 +2,14 @@
 {% block content %}
     <div class="container">
         <div class="col m12">
-            <button class="btn right hoverable modal-trigger" type="button" name="button" style="margin: 20px;" href="#modal1"><i class="material-icons left">add_circle_outline</i> Add</button>
+            <button class="btn right hoverable modal-trigger" type="button" name="button" style="margin: 20px;" href="#modal1"> Add</button>
             {% if companies %}
             <table>
             <thead>
               <tr>
                   <th>Name</th>
                   <th>Description</th>
-                  <th>Owner</th>
-                  <th>Email</th>
+
               </tr>
             </thead>
 
@@ -19,19 +18,19 @@
                     <tr>
                       <td>{{company.name}}</td>
                       <td>{{company.description}}</td>
-                      <td>{{company.user}}</td>
-                      <td>{{company.email}}</td>
+
+
                     </tr>
                 {% endfor %}
             </tbody>
           </table>
           {% else %}
-          <h1 class="center-align">There are no companies registered in your Neighborhood</h1>
+          <h1 class="center-align">There are no companies Yet</h1>
           {% endif %}
         </div>
           <!-- Modal Structure -->
           <div id="modal1" class="modal" style="max-height: 800px !important;">
-            <form action="{%url 'companies' %}" method='post' enctype="multipart/form-data">
+            <form action="{%url 'companies' %}" method='POST' enctype="multipart/form-data">
             <div class="modal-content">
               <h4>Add a Company</h4>
 
@@ -40,7 +39,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type='submit' class="btn btn-success" style="margin-right:20px;">Submit</button>
+                <button type='submit' class="btn btn-primary" style="margin-right:20px;">Submit</button>
             </div>
             </form>
           </div>

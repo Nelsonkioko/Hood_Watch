@@ -9,7 +9,7 @@ class UserProfileForm(forms.ModelForm):
 class CompanyForm(forms.ModelForm):
     class Meta:
         model = Company
-        exclude = ['user','neighborhood']
+        exclude = ['user','neighborhood',]
 
 class PostForm(forms.ModelForm):
     CHOICES = (('1', 'Amber',), ('2', 'Normal',))

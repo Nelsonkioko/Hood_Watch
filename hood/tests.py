@@ -5,7 +5,7 @@ from .models import UserProfile,Post,Comment,Location,Category,Neighborhood,Comp
 class UserProfileTestClass(TestCase):
     # Set up method
     def setUp(self):
-        self.user = User.objects.create_user(username='testuser', password='12345')
+        self.user = User.objects.create_user(username='kioko', password='cheese')
         self.profile = UserProfile(id=1,first_name='John',last_name='Doe',user = self.user,bio='test bio')
 
     #Testing instance
@@ -15,7 +15,7 @@ class UserProfileTestClass(TestCase):
 class PostTestClass(TestCase):
     # Set up method
     def setUp(self):
-        self.user = User.objects.create_user(username='testuser', password='12345')
+        self.user = User.objects.create_user(username='kioko', password='cheese')
         self.post = Post(id=1,title='Test',content='This is a test',user = self.user)
 
     #Testing instance
@@ -25,7 +25,7 @@ class PostTestClass(TestCase):
 class CommentTestClass(TestCase):
     # Set up method
     def setUp(self):
-        self.user = User.objects.create_user(username='testuser', password='12345')
+        self.user = User.objects.create_user(username='kioko', password='cheese')
         self.post = Post(id=1,title='Test',content='This is a test',user = self.user)
         self.comment = Comment(id=1,post=self.post,user=self.user)
 

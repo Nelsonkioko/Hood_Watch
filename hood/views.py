@@ -39,7 +39,7 @@ def index(request):
         return redirect('index')
     else:
         form = PostForm()
-    return render(request, 'index.html', {"posts": posts, "profile": profile, "form": form})
+    return render(request, 'Home.html', {"posts": posts, "profile": profile, "form": form})
 
 
 @login_required
@@ -67,7 +67,7 @@ def edit_profile(request, username):
             form = UserProfileForm(instance=profile)
         else:
             form = UserProfileForm()
-    return render(request, 'edit_profile.html', {"form": form})
+    return render(request, 'profile.html', {"form": form})
 
 
 @login_required

@@ -8,7 +8,7 @@ from rest_framework.views import APIView
 from .serializer import CompanySerializer
 from .email import send_a_email
 
-.
+
 @login_required
 def index(request):
     current_user = request.user

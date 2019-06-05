@@ -1,5 +1,4 @@
-# Awards01
-This is a site to post projects and people get the chance to comment and rate the projects.
+# Hood Watch
 
 ## Author name
 

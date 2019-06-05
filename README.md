@@ -50,7 +50,7 @@ Django 2.2.1
 | ------------- |:----:|
 | user loads the page | posts are displayed |
 | user clicks on MORE... |The whole post shows up with an option to add comments|
-| user clicks on make review icon | User is redirected to a page where he/she can make a review|
+| user clicks on post something | A modal to post pops up|
 | User clicks on the profile | Profile details of the current user is loaded |
 
 | user searches for a project category  | user is re-directed to the searched term with relevant projects displayed |

@@ -54,7 +54,7 @@ Django 2.2.1
 | user clicks on post something | A modal to post pops up|
 | User clicks on the profile | Profile details of the current user is loaded |
 
-| user searches for a project category  | user is re-directed to the searched term with relevant projects displayed |
+| user searches for a Business | user is re-directed to the searched term with relevant Business displayed |
 
 
 

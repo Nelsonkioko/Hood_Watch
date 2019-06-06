@@ -9,7 +9,7 @@ Nelson Kioko
 Python 3.6
 
 Django 2.2.1
-
+ 
 ## Application requirements
 
 1. Ensure you have Python3.6 installed in your computer. you can download it by running this command

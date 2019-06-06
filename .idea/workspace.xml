@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b895026-27fd-4767-88b7-77997e8d1244" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hood_watch/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hood_watch/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hood/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/hood/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hood/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hood/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hood/templates/django_registration/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hood/templates/django_registration/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hood/templates/django_registration/registration_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/hood/templates/django_registration/registration_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hood/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/hood/templates/profile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,22 +45,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hood/templates/django_registration/registration_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/hood/templates/django_registration/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="21" column="270" selection-start-line="21" selection-start-column="270" selection-end-line="21" selection-end-column="270" />
             </state>
           </provider>
         </entry>
@@ -161,13 +153,13 @@
         <option value="$PROJECT_DIR$/hood/templates/businesses.html" />
         <option value="$PROJECT_DIR$/hood/templates/Home.html" />
         <option value="$PROJECT_DIR$/hood/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/hood/templates/django_registration/base.html" />
         <option value="$PROJECT_DIR$/hood/templates/django_registration/registration_form.html" />
         <option value="$PROJECT_DIR$/Hood_watch/settings.py" />
         <option value="$PROJECT_DIR$/hood/forms.py" />
         <option value="$PROJECT_DIR$/hood/models.py" />
         <option value="$PROJECT_DIR$/hood/templates/profile.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/hood/templates/django_registration/base.html" />
       </list>
     </option>
   </component>
@@ -322,12 +314,12 @@
       <workItem from="1559550852545" duration="2370000" />
       <workItem from="1559719578771" duration="7004000" />
       <workItem from="1559789962297" duration="1352000" />
-      <workItem from="1559791766342" duration="5043000" />
+      <workItem from="1559791766342" duration="5211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30272000" />
+    <option name="totallyTimeSpent" value="30440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
@@ -437,16 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hood/templates/django_registration/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="21" column="267" lean-forward="true" selection-start-line="21" selection-start-column="267" selection-end-line="21" selection-end-column="267" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hood/templates/django_registration/registration_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -525,10 +507,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hood/templates/django_registration/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="270" selection-start-line="21" selection-start-column="270" selection-end-line="21" selection-end-column="270" />
         </state>
       </provider>
     </entry>

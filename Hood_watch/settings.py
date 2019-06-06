@@ -28,7 +28,7 @@ SECRET_KEY = 's-u!u@94+mm%))983g##5#@6n!dwb48rdgejd3!h+ooj^q55ps'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hoodwatch77.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['hoodwatch77.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'bootstrap4',
     'materializeform',
     'rest_framework',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

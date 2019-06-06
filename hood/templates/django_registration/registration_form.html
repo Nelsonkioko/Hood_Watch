@@ -1,10 +1,12 @@
 {%extends "django_registration/base.html"%}
+{% load crispy_forms_tags %}
 {% block content%}
-<div class="container" style="float:right">
-  <div class="row">
+
+<div class="container" >
+  <div class="">
     <!-- Empty div -->
-    <div class="col "></div>
-    <div class="col ">
+    <div class="col-md-6 "></div>
+    <div class="col-md-6 ">
       {% if form.errors %}
         <p> Some Information Might be Incorrect </p>
       {% endif %}
@@ -17,9 +19,10 @@
 
           <form  action="/accounts/register/" method="post">
             {% csrf_token %}
-            {{ form }}
+            {{ form}}
             <div class="form-group">
               <input type="submit" class="btn btn-primary btn-sm" value="Sign Up">
+                <p>Already have an account? sign in <a href="/accounts/login">here</a></p>
             </div>
 
             <input type="hidden" name="next" value="{{next}}">
@@ -32,7 +35,7 @@
 
     </div>
     <!-- empty div -->
-    <div class="col s4"></div>
+
   </div>
 </div>
 {% endblock%}

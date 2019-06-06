@@ -4,7 +4,7 @@ from .models import UserProfile,Neighborhood,Company,Post,Comment
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
-        fields = ('first_name','last_name','bio','neighborhood','email')
+        fields = ('first_name','last_name','bio','neighborhood')
 
 class CompanyForm(forms.ModelForm):
     class Meta:

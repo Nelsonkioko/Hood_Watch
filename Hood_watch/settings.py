@@ -28,7 +28,7 @@ SECRET_KEY = 's-u!u@94+mm%))983g##5#@6n!dwb48rdgejd3!h+ooj^q55ps'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hoodwatch77.herokuapp.com', 'localhost:8000']
 
 
 # Application definition

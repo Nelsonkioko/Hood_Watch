@@ -1,5 +1,5 @@
 # Hood Watch
-
+This is a site that brings together your neighbourhood by providing a place where people  can talk,find emergency contacts and share important information
 ## Author name
 
 Nelson Kioko
